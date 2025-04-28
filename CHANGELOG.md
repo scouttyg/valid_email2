@@ -1,5 +1,33 @@
 # Changelog
 
+## [6.0.0](https://github.com/scouttyg/valid_email2/compare/v5.3.0...v6.0.0) (2024-09-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove deprecated methods and options
+
+### Features
+
+* **config:** Add 100k more disposable domains ([2137cf7](https://github.com/scouttyg/valid_email2/commit/2137cf705140c153f92830635bbf61a000d57977))
+* Deprecate blacklist and whitelist naming ([9df0bf8](https://github.com/scouttyg/valid_email2/commit/9df0bf8c9912721b007e5a6acc67f533ca560c9f))
+* Remove deprecated methods and options ([1a29d27](https://github.com/scouttyg/valid_email2/commit/1a29d27d587a39d181dfe2b6f39028bc317aff52))
+* remove mailinblack.com from disposable ([91152f7](https://github.com/scouttyg/valid_email2/commit/91152f7653889384dd83cc57c8eb215090513ea8))
+* Test against Rails-7 ([7fe5ca3](https://github.com/scouttyg/valid_email2/commit/7fe5ca31e1403241573ac7ce59630750b09f6dd1))
+* Warn when loading deprecated files ([46634df](https://github.com/scouttyg/valid_email2/commit/46634dff409f9a47f10684d629dc022b22daf362))
+
+
+### Bug Fixes
+
+* add .release-please-manifest.json ([8a9ef25](https://github.com/scouttyg/valid_email2/commit/8a9ef25b77db3942956bb4790627b14eadc2404e))
+* add id to release-please-action ([35b4697](https://github.com/scouttyg/valid_email2/commit/35b4697b1970ebd696b7cdaf38889ec7b674000c))
+* add release-please-config.json ([adde8b6](https://github.com/scouttyg/valid_email2/commit/adde8b6fe23e3bdf8b892290b565f560d7e72c8d))
+* Add step to publish gem to rubygems to the release action ([b6932f3](https://github.com/scouttyg/valid_email2/commit/b6932f36c0a6af9897d723d222145678c9bc0f06))
+* adding mailpoof.com to the list ([75f2bd0](https://github.com/scouttyg/valid_email2/commit/75f2bd0c7b6c8fc706a02599da2050c226124a54))
+* fetch tags when checking out the repository ([0d6ed8b](https://github.com/scouttyg/valid_email2/commit/0d6ed8bd5e51d50eeb8f2315b6bc9803bf1d34da))
+* reset the version to 5.2.5 ([b0cb66c](https://github.com/scouttyg/valid_email2/commit/b0cb66c57cd08f0ecef72bb0dd84d4f5636adf41))
+* Whitelist directbox.com ([cf70737](https://github.com/scouttyg/valid_email2/commit/cf707371735c10b565ab3aafce39d7ea7089cdb1))
+
 ## [5.3.0](https://github.com/micke/valid_email2/compare/v5.2.6...v5.3.0) (2024-08-31)
 
 
